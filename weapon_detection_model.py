@@ -10,7 +10,6 @@ output_layer_names = net.getUnconnectedOutLayersNames()
 colors = [(0, 0, 255)]
 
 def detect_weapons(frame):
-    """Process a single frame and detect weapons"""
     if frame is None:
         return None, "No frame provided"
     
