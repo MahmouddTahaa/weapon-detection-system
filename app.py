@@ -34,7 +34,6 @@ def webcam_stream():
     yield None, "Webcam stopped"
 
 def toggle_webcam():
-    """Toggle webcam on/off"""
     global webcam_active
     webcam_active = not webcam_active
     return gr.update(value="Stop Webcam" if webcam_active else "Start Webcam", variant="stop" if webcam_active else "primary")
