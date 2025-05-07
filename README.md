@@ -1,4 +1,4 @@
-# (Weapon Detection System Documentation)[https://huggingface.co/spaces/mtaha48/Weapon-Detection]
+# [Weapon Detection System Documentation](https://huggingface.co/spaces/mtaha48/Weapon-Detection)
 
 ## Overview
 The Weapon Detection System is a real-time application that uses the YOLO v3 model to detect weapons in video streams from webcams or uploaded videos. It features a modular design with separate model and app components, built using Python, OpenCV, and Gradio.
