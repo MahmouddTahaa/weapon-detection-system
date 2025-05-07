@@ -52,8 +52,5 @@ The YOLO v3 model was trained on the COCO8 dataset (8 images from COCO train 201
 - **Misclassifications**: Check console logs for detection details; consider retraining or fine-tuning.
 - **Performance**: Optimize with GPU support or reduce resolution if slow.
 
-## License
-[Specify license, e.g., MIT] - Add your preferred license here.
-
 ## Contact
-For issues or contributions, contact [your email or GitHub].
+For issues or contributions, contact me.
