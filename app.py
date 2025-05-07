@@ -9,7 +9,6 @@ webcam_active = False
 cap = None
 
 def webcam_stream():
-    """Stream webcam frames with real-time detection"""
     global webcam_active, cap
     
     if not webcam_active:
@@ -41,7 +40,6 @@ def toggle_webcam():
     return gr.update(value="Stop Webcam" if webcam_active else "Start Webcam", variant="stop" if webcam_active else "primary")
 
 def process_video(video_path):
-    """Process uploaded video with weapon detection"""
     if not video_path:
         return None, "No video selected"
         
